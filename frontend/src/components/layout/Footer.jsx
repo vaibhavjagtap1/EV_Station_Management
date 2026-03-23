@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Zap, Facebook, Twitter, Instagram, Mail, Phone, MapPin } from 'lucide-react';
+import { Zap, Share2, Globe, AtSign, Mail, Phone, MapPin } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -22,13 +22,13 @@ const Footer = () => {
             </p>
             <div className="flex gap-3 mt-4">
               <a href="#" className="text-gray-400 hover:text-green-400 transition-colors">
-                <Facebook className="w-5 h-5" />
+                <Share2 className="w-5 h-5" />
               </a>
               <a href="#" className="text-gray-400 hover:text-green-400 transition-colors">
-                <Twitter className="w-5 h-5" />
+                <Globe className="w-5 h-5" />
               </a>
               <a href="#" className="text-gray-400 hover:text-green-400 transition-colors">
-                <Instagram className="w-5 h-5" />
+                <AtSign className="w-5 h-5" />
               </a>
             </div>
           </div>
